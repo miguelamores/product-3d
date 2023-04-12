@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 
 function App() {
   return (
-    <main>
+    <main style={{ height: "100vh" }}>
       <Home />
       <Canvas />
       <Customizer />
